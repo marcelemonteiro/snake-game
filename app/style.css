@@ -1,0 +1,46 @@
+body {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.jogo {
+  position: relative;
+}
+
+.start {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 512px;
+  height: 512px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+
+.start h1 {
+  font-size: 4rem;
+  color: #2c8b2c;
+}
+
+.startBtn {
+  padding: 2rem 4rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #2c8b2c;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  cursor: pointer;
+  bottom: 35vh;
+}
+
+.startBtn:hover {
+  opacity: 0.8;
+}
